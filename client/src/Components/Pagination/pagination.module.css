@@ -1,0 +1,29 @@
+.paginationContainer{
+    display: inline-flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    /* background-color: wheat; */
+    padding: 0.5em;
+
+}
+.indexPage{
+    background-color: white;
+    display: inline-block;
+    padding: 0.5em;
+    margin-bottom: 2em;
+    border-radius: 10%;
+}
+.page{
+    text-decoration: none;
+    color: blue;
+    background-color: white;
+    margin: 0.3em;
+    padding: 0.7em;
+    border-radius: 30%;
+}
+.pagesContainer{
+    display: flex;
+}
+.page:hover{
+    background-color: #9BA09A;
+}

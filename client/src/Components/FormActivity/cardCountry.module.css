@@ -1,0 +1,46 @@
+.cardCountryContainer{
+    /* border: 1px black solid; */
+    border-radius: 4%;
+    margin: 0.5rem;
+
+}
+
+.nameImgContainer{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0.5em;
+    background-color: #CFE0FA;
+    border-radius: 0.5em;
+}
+
+.img{
+    width: 10%;
+}
+.name{
+    width: 20%;
+}
+.nameAdded{
+    text-decoration: line-through;
+}
+.btnContainer{
+    display: flex;
+    justify-content: space-around;
+}
+.btnAdd{
+    align-self: center;
+    background-color: #0EB837;
+    color: white;
+    padding: 0.8em;
+    margin: 0.2em;
+    border: none;
+    border-radius: 4%;
+}
+.btnDelete{
+    align-self: center;
+    background-color: #e92828;
+    color: white;
+    padding: 0.8em;
+    margin: 0.2em;
+    border: none;
+    border-radius: 4%;
+}

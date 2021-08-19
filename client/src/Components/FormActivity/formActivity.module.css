@@ -1,0 +1,190 @@
+.activityContainer{
+    /* background-color: #3383FF; */
+    background-image: url("/home/cristian/Henry/PI-Countries/client/src/images/canada.jpg");
+    background-size: cover;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.formContainer{
+    margin-top: 5%;
+    background-color: #599BFF;
+    border-radius: 3%;
+    width: 50%;
+    height: 50%;
+    border: black 1px solid;
+}
+.formContainer label{
+    color: white;
+}
+.formContainer form{
+    display: flex;
+    flex-direction: column;
+}
+.link{
+    text-decoration: none;
+    background-color: #0F81F2;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    padding: 0.3em;
+    border: none;
+    border-radius: 5px;
+    color: white
+}
+/*  */
+.link:hover{
+    background-color: #0768C8;
+    /* box-shadow: 2px 3px black; */
+    /* color: white; */
+    /* box-shadow: 2px 2px black; */
+}
+.btnContainer{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.nameInputContainer{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+.nameInputContainer label{
+    color: white;
+}
+.nameInputContainer input{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.dificultyOptionContainer{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+.dificultyOptionContainer label{
+    color: white;
+}
+.dificultyOptionContainer select{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.durationSelectContainer label{
+    color: white;
+}
+.durationSelectContainer{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+.durationSelectContainer input{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.seasonOptionContainer label{
+    color: white;
+}
+.seasonOptionContainer{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    display: flex;
+    flex-direction: column;
+}
+.seasonOptionContainer select{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.countriesContainer {
+    margin-top: 0.5em;
+    margin-bottom: 0.5em; 
+    display: flex; 
+    flex-direction: column;
+    overflow-x: hidden;
+    border-radius: 4%; 
+}
+.countriesContainer input{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.countriesBtn{
+    background-color: #0EB837;
+    padding: 0.8em;
+    margin-top: 0.5em;
+    color: white;
+    border-radius: 6%;
+    border: none;
+}
+.countriesBtn:hover{
+    background-color: #259E2B;
+}
+
+.countriesOptionContainer label{
+    color: white;
+}
+.countriesOptionContainer{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 1em;
+    margin-right: 1em;
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    height: 15rem;
+    overflow: auto;
+}
+.countriesOptionContainer select{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+.btnSubmitContainer{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.btnSubmitContainer input{
+    background-color: #0F81F2;
+    padding: 0.7em;
+    color: white;
+    border-radius: 6%;
+    border: none;
+}
+.btnSubmitContainer input:hover{
+    background-color: #0768C8;
+}
+p.danger {
+    color: red;
+    font-size: 0.9em;
+}
+input.danger{
+    border: red 1px solid;
+}
+
+.countriesActivitiesContainer{
+    background-color: #CFE0FA;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.countriesList{
+    padding-left: 3em;
+    padding-right: 3em;
+    border: 1px solid black;
+
+}
+.countriesList p{
+    margin: 1%;
+}
+
+.errorContainer{
+    background-color: whitesmoke;
+    display: inline-block;
+    
+   margin: 3em;
+    border-radius: 4%;
+}
+.errorContainer h3{
+    font-size: 2rem;
+    color: red;
+}
